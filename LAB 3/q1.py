@@ -13,6 +13,6 @@ def estimate_pi(num_points):
     pi_estimate = 4 * inside_count / num_points
     return pi_estimate
 
-num_points = 1000000
+num_points = 100
 estimated_pi = estimate_pi(num_points)
 print(f"Estimated value of π using {num_points} points: {estimated_pi}")
