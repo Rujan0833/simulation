@@ -18,6 +18,6 @@ def estimate_area(num_points, a, b):
 
 a = 0  
 b = 2  
-num_points = 1000000
+num_points = 100
 estimated_area = estimate_area(num_points, a, b)
 print(f"Estimated area under the curve using {num_points} points: {estimated_area}")
