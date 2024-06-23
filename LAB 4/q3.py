@@ -15,8 +15,8 @@ def mm1_queue_measures(arrival_rate, service_rate):
         "Probability of zero customers (P0)": P0
     }
 
-arrival_rate = 1.0
-service_rate = 3.0
+arrival_rate = 80.7
+service_rate = 38.0
 
 measures = mm1_queue_measures(arrival_rate, service_rate)
 
