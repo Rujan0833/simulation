@@ -25,3 +25,5 @@ print("=" * len(header))
 for year, G, Y, T, C, growth in results:
     growth_str = f"{growth:.2f}%" if growth is not None else "N/A"
     print(f"{year:<5} {G:<10} {Y:<10.2f} {T:<10.2f} {C:<15.2f} {growth_str:<10}")
+
+#hello
