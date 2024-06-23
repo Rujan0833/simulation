@@ -5,6 +5,7 @@
 #               => 80% not Rainy tomorrow
 # What will be probability if todays is not raining then not rain the day after tomorrow?
 
+
 def weather_probability():
     # Define the transition probabilities
     rainy_to_rainy = 0.4
